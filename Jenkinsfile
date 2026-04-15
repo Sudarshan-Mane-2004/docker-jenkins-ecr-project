@@ -11,7 +11,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git '<YOUR_GITHUB_URL>'
+                git 'https://github.com/Sudarshan-Mane-2004/docker-jenkins-ecr-project.git'
             }
         }
 
